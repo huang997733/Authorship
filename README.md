@@ -6,6 +6,11 @@ The aim of this project is to predict for each of the test papers, which of a se
 
 Team with Tianyu Huang https://github.com/TianyuHuang-000 and Jinjie Ding jinjied@student.unimelb.edu.au
 
+## Kaggle result
+https://www.kaggle.com/competitions/comp90051-22-s2-authorship/overview
+
+We ranked 50 among 200 teams with the accuracy of 0.50
+
 ## Dataset
 ### train.json
 contains 25.8k papers. This file is in JSON format as a list of papers, where each paper is a dictionary with keys:
@@ -43,7 +48,4 @@ Three fully connected layers
 
 For more information of our approach, please see our report
 
-## Kaggle result
-https://www.kaggle.com/competitions/comp90051-22-s2-authorship/overview
 
-We ranked 50 among 200 teams with the accuracy of 0.50
