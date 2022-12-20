@@ -21,6 +21,29 @@ contains 800 papers, stored in JSON format with the fields year, venue, title an
 2. coauthors: The IDs of the co-authors of the paper, with values in {100,...,21245}
 
 ## Approach
+Start with feature engineering
+### label for each data
+use one-hot on 100 prolific authors
 
+### Text (title+abstract)
+use Doc2Vec to extract useful information
+
+### Venue
+add to the feature array and scale it using standard scaler
+
+### Authors
+use one-hot on co-authors
+
+### Year
+didn't use
+
+Then throw the data into neural net
+### Model
+Three fully connected layers
+
+For more information of our approach, please see our report
 
 ## Kaggle result
+https://www.kaggle.com/competitions/comp90051-22-s2-authorship/overview
+
+We ranked 50 among 200 teams with the accuracy of 0.50
